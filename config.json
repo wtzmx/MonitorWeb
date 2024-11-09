@@ -1,0 +1,60 @@
+{
+    "email": {
+        "smtp_server": "smtp.qq.com",
+        "sender": "357542156@qq.com",
+        "password": "qllozlfufnqcbibf",
+        "receiver": "wpwtz@qq.com",
+        "subject": "网站内容更新通知"
+    },
+    "monitors": [
+        {
+            "name": "江南大学博士招生",
+            "url": "https://yz.jiangnan.edu.cn/bszs/zsjz.htm",
+            "encoding": "utf-8",
+            "type": "jiangnan"
+        },
+        {
+            "name": "江苏人社招聘",
+            "url": "https://jshrss.jiangsu.gov.cn/col/col78506/index.html",
+            "encoding": "utf-8",
+            "type": "jshrss"
+        },
+        {
+            "name": "上海大学博士招生",
+            "url": "https://yjszs.shu.edu.cn/zsjz/bszsjz.htm",
+            "encoding": "utf-8",
+            "type": "shu"
+        },
+        {
+            "name": "河海大学博士招生",
+            "url": "https://gs.hhu.edu.cn/17278/list.htm",
+            "encoding": "utf-8",
+            "type": "hhu"
+        },
+        {
+            "name": "中央民族大学博士招生",
+            "url": "https://grs.muc.edu.cn/yjsyzsw/bszs/jzml.htm",
+            "encoding": "utf-8",
+            "type": "muc"
+        },
+        {
+            "name": "山东省事业单位招聘",
+            "url": "http://hrss.shandong.gov.cn/channels/ch00238/",
+            "encoding": "utf-8",
+            "type": "shandong"
+        },
+        {
+            "name": "浙江省事业单位招聘",
+            "url": "https://rlsbt.zj.gov.cn/col/col1229743683/index.html",
+            "encoding": "utf-8",
+            "type": "zhejiang"
+        }
+    ],
+    "settings": {
+        "check_interval": 21600,
+        "error_interval": 600
+    },
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+} 
